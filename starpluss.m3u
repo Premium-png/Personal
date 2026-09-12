@@ -1,9 +1,0 @@
-#EXTINF:-1 tvg-id="1132" tvg-name="Star Plus HD" tvg-logo="https://img.media.jio.com/tvpimages/79/39/301998_1753187047337_l_medium.jpg" group-title="Entertainment",Star Plus HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db
-#EXTVLCOPT:http-user-agent=JioTVPlus/2.8.4_2076/PlugX(PlugX;JioSTB) JioTvPlus-AndroidTv
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__=st=1789175888~exp=1789197488~acl=/bpk-tv/Star_Plus_HD_BTS/WDVLive/*~hmac=3f3b546c9731c2f944a09e834a522a834d2e4292913bcca6764e8cbab8ef22aa&User-Agent=JioTVPlus/2.8.4_2076/PlugX(PlugX;JioSTB) JioTvPlus-AndroidTv
-#EXTHTTP:{"cookie":"__hdnea__=st=1789175888~exp=1789197488~acl=/bpk-tv/Star_Plus_HD_BTS/WDVLive/*~hmac=3f3b546c9731c2f944a09e834a522a834d2e4292913bcca6764e8cbab8ef22aa"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Plus_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789175888~exp=1789197488~acl=/bpk-tv/Star_Plus_HD_BTS/WDVLive/*~hmac=3f3b546c9731c2f944a09e834a522a834d2e4292913bcca6764e8cbab8ef22aa?|Cookie=__hdnea__=st=1789175888~exp=1789197488~acl=/bpk-tv/Star_Plus_HD_BTS/WDVLive/*~hmac=3f3b546c9731c2f944a09e834a522a834d2e4292913bcca6764e8cbab8ef22aa&xxx=%7Ccookie=__hdnea__=st=1789175888~exp=1789197488~acl=/bpk-tv/Star_Plus_HD_BTS/WDVLive/*~hmac=3f3b546c9731c2f944a09e834a522a834d2e4292913bcca6764e8cbab8ef22aa
