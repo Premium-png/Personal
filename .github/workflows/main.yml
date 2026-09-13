@@ -1,0 +1,32 @@
+name: Auto Update Universal M3U
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Har 1 ghante me automatic chalega
+  workflow_dispatch: # Manual chalaane ke liye button
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Run Converter Script
+      run: python update_m3u.py
+
+    - name: Save and Upload Updated File
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add playlist.m3u
+        git commit -m "Tokens refreshed automatically" || exit 0
+        git push
